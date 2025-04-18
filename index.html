@@ -4,31 +4,57 @@
 <meta charset="utf-8">
 <title>Website Compliance Audit – $99 Flat</title>
 <style>
-body{font-family:Arial, sans-serif;max-width:720px;margin:40px auto;
-line-height:1.5;color:#333;padding:0 18px;}
-h1{color:#dc3545;}
+body{font-family:Arial, sans-serif;max-width:760px;margin:40px auto;
+     line-height:1.5;color:#333;padding:0 18px;}
+h1{color:#dc3545;margin-top:0;}
+nav a{margin-right:12px;text-decoration:none;color:#007bff;}
+nav a:hover{text-decoration:underline;}
+.card{border:1px solid #ddd;padding:24px;border-radius:8px;
+      box-shadow:0 2px 4px rgba(0,0,0,.06);}
 button{background:#28a745;color:#fff;border:none;padding:14px 24px;
-font-size:18px;border-radius:6px;cursor:pointer;}
+       font-size:18px;border-radius:6px;cursor:pointer;}
 button:hover{background:#218838;}
-.card{border:1px solid #ddd;padding:24px;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,.06);}
+footer{margin-top:40px;font-size:12px;color:#777;}
+footer a{color:#777;margin-right:8px;}
 </style>
 </head>
 <body>
-<h1>Instant Website Compliance Audit</h1>
+
+<header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<h1 id="about">Website Compliance Audit</h1>
+<p>AuditBot automatically scans your site for ADA / WCAG 2.2 accessibility
+issues, CPRA / CCPA privacy gaps, and CAN‑SPAM liabilities, then emails you
+a lawyer‑ready PDF risk report—typically within <strong>24 hours</strong>.</p>
+
+<h2 id="pricing">Pricing</h2>
 <p class="card">
-✅ Automated ADA &amp; Privacy scan<br>
-✅ PDF risk report with dollar exposure<br>
-✅ 24‑hour turnaround<br><br>
-<strong>One‑time fee – just $99</strong>
+<strong>$99&nbsp;USD one‑time</strong><br>
+✔︎ Full PDF report (legal &amp; dev sections)<br>
+✔︎ Dollar exposure estimate<br>
+✔︎ Free re‑scan after fixes<br><br>
+Delivery by email within 24 h. 7‑day money‑back guarantee.
 </p>
-<p>
-Payment is handled securely by Stripe. After checkout you’ll receive your PDF report by email.
-</p>
+
 <button onclick="window.location.href='YOUR_STRIPE_LINK'">
   Get&nbsp;My&nbsp;Audit
 </button>
-<p style="margin-top:40px;font-size:12px;color:#777;">
+
+<h2 id="contact">Contact</h2>
+<p>Email: <a href="mailto:support@auditbot.io">support@auditbot.io</a><br>
+Phoenix, AZ USA</p>
+
+<footer>
+  <a href="privacy.html">Privacy</a> ·
+  <a href="terms.html">Terms</a> ·
+  <a href="accessibility.html">Accessibility</a><br>
   © 2025 AuditBot. All rights reserved.
-</p>
+</footer>
 </body>
 </html>
